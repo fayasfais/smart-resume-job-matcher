@@ -1,0 +1,29 @@
+# Environment & secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# ChromaDB persisted vector store
+chroma_db/
+
+# Sample resumes / uploaded files (keep folder, ignore contents)
+data/sample_resumes/*
+!data/sample_resumes/.gitkeep
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
